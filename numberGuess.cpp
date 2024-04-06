@@ -24,7 +24,6 @@ int main(){
     uniform_int_distribution<> dist(minNum, maxNum);
     int correctNum = dist(mt);
 
-    // cout << correctNum << endl;
     int guessNum;
     do
     {
